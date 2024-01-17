@@ -86,7 +86,7 @@ function Contact() {
               </p>
               <p className='text-xl text-justify font-jetBrainsRegular text-zinc-800 dark:text-zinc-500 py-2 md:pr-0'>
                 Send me a message through the form, or get in touch directly via
-                the e-mail on the right.{' '}
+                the e-mail on the bottom right.{' '}
                 <span className='font-jetBrainsExtraBold'>&rarr;</span>
               </p>
             </div>

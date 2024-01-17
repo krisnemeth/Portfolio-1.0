@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import HomePage from './HomePage';
-import SplashPage from './SplashPage';
 import ErrorPage from './ErrorPage';
 
 function App() {
@@ -46,9 +45,9 @@ function App() {
             />
           }
         />
-        <Route path='/' element={<SplashPage />} />
+
         <Route
-          path='/home'
+          path='/'
           element={
             <HomePage
               navBarOpen={navBarOpen}

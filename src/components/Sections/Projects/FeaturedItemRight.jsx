@@ -54,10 +54,14 @@ function FeaturedItemRight({
             <p className='text-zinc-400 mr-4 mt-1'>{tech4}</p>
           </div>
           <div className='flex lg:justify-end m-4 md:my-4 md:mx-0'>
-            <a href='#'>
+            <a href='#' target='_blank' rel='noopener noreferrer'>
               <VscGithub className='text-3xl text-zinc-500 mr-4' />
             </a>
-            <a href='#'>
+            <a
+              href='https://nms-kn.000webhostapp.com/index.php'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <FiExternalLink className='text-3xl text-zinc-500' />
             </a>
           </div>

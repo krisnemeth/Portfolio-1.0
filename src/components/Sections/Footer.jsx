@@ -24,21 +24,33 @@ function Footer() {
       <div className='flex md:hidden items-center mx-auto'>
         <span className='mr-4'>
           <div className='w-8 h-8 mb-0'>
-            <a href='https://github.com/krisnemeth'>
+            <a
+              href='https://github.com/krisnemeth'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <FaGithubSquare className='text-3xl text-zinc-800 dark:text-zinc-500' />
             </a>
           </div>
         </span>
         <span className='mr-4'>
           <div className='w-8 h-8 mb-0'>
-            <a href='https://www.linkedin.com/in/krisztian-nemeth-3a41682a5/'>
+            <a
+              href='https://www.linkedin.com/in/krisztian-nemeth-3a41682a5/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <FaLinkedin className='text-3xl text-zinc-800 dark:text-zinc-500' />
             </a>
           </div>
         </span>
         <span className=''>
           <div className='w-8 h-8 mb-0'>
-            <a href='https://twitter.com/kriscodes5'>
+            <a
+              href='https://twitter.com/kriscodes5'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <FaSquareXTwitter className='text-3xl text-zinc-800 dark:text-zinc-500' />
             </a>
           </div>
