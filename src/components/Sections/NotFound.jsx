@@ -33,7 +33,7 @@ function NotFound() {
               </p>
             </div>
             <div className='flex justify-center mt-10'>
-              <Button page='/home'>&larr; Back To Home</Button>
+              <Button page='/'>&larr; Back To Home</Button>
             </div>
           </div>
         </div>

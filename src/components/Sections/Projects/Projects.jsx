@@ -32,7 +32,7 @@ function Projects({ darkMode }) {
           darkMode={darkMode}
           project={{
             title: 'Portfolio',
-            description: `My first real-life React project. I've built this portfolio to showcase my skills, projects and a bit of my personality. I've used ReactRouter for navigation, JavaScript for the dark mode and TailwindCSS for styling.`,
+            description: `My first real-life React project. I've built this portfolio to showcase my skills, projects and a bit of my personality. I've used React Router for navigation, JavaScript for dark mode and other functonality, and TailwindCSS for styling.`,
             tech1: 'JavaScript',
             tech2: 'React',
             tech3: 'ReactRouter',

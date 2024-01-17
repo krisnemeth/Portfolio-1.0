@@ -76,10 +76,10 @@ function Contact() {
                 Thanks for checking out my work!
               </p>
               <h2 className='lg:text-center text-6xl md:text-7xl 2xl:text-8xl p-4 md:px-0 md:pb-16 font-jetBrainsExtraBold text-zinc-800 dark:text-zinc-400'>
-                Let's talk
+                Let&apos;s talk
               </h2>
               <p className='text-xl text-justify font-jetBrainsRegular text-zinc-800 dark:text-zinc-500 mb-14 md:pr-0'>
-                If you liked what you've seen, please do{' '}
+                If you liked what you&apos;ve seen, please do{' '}
                 <span className='font-jetBrainsExtraBold'>get in touch</span>. I
                 am open to web developer positions, collaboration, projects or a
                 chat.
