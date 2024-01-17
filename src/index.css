@@ -1,0 +1,44 @@
+/* html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+} */
+
+
+@font-face {
+    font-family: 'JetBrains Mono Regular';
+    src: url('./assets/font/JetBrainsMono-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'JetBrains Mono Semibold';
+    src: url('./assets/font/JetBrainsMono-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'JetBrains Mono ExtraBold';
+    src: url('./assets/font/JetBrainsMono-ExtraBold.woff2') format('woff2');
+
+}
+
+
+@layer components {
+    .nav-li {
+        @apply flex w-full leading-8 list-none focus:outline-none py-2 tracking-normal opacity-90 hover:opacity-100 transition-all duration-200 ease-in-out;
+    }
+}
+
+@layer components {
+    .nav-link {
+        @apply h-full w-14 py-2 text-lg text-zinc-800 hover:font-jetBrainsExtraBold dark:hover:text-yellow-400 dark:text-zinc-400;
+    }
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
