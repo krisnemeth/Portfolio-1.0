@@ -58,7 +58,7 @@ function Projects({ darkMode }) {
             tech2: 'PHP',
             tech3: 'MySQL',
             tech4: 'Bootstrap',
-            link1: '',
+            link1: 'https://github.com/krisnemeth/eRevive',
             link2: 'https://erevive-kn.000webhostapp.com/',
           }}
         />
