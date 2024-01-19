@@ -171,7 +171,7 @@ function Header({ navBarOpen, setNavBarOpen, handleDarkMode }) {
               </li>
               <li className='z-50 mx-5 lg:inline-block'>
                 <a href='public/CV/Krisztian-Nemeth-CV.pdf' download>
-                  <Button>Resume</Button>
+                  <Button>Download CV</Button>
                 </a>
               </li>
             </ul>
