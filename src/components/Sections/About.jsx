@@ -24,7 +24,7 @@ function About() {
               I'm originally from Budapest, I've lived in the UK since 2017. I
               have been working in hospitality for the past decade, but I've
               always been interested in technology and computers. So much so,
-              that I've built my own in PC 2019.
+              that I've built my own PC in 2019.
             </p>
             <p className='text-sm md:text-base lg:text-lg pt-4'>
               I got into coding in early 2020 and after a year of self-study,
