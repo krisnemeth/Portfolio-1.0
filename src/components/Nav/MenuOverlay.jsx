@@ -33,7 +33,7 @@ function MenuOverlay({ navBarOpen, setNavBarOpen }) {
             }}
           >
             <span className='font-jetBrainsExtraBold dark:text-yellow-400'>
-              01_
+              00_
             </span>
             About
           </a>
@@ -47,7 +47,7 @@ function MenuOverlay({ navBarOpen, setNavBarOpen }) {
             }}
           >
             <span className='font-jetBrainsExtraBold dark:text-yellow-400'>
-              02_
+              01_
             </span>
             Skills
           </a>
@@ -61,7 +61,7 @@ function MenuOverlay({ navBarOpen, setNavBarOpen }) {
             }}
           >
             <span className='font-jetBrainsExtraBold dark:text-yellow-400'>
-              03_
+              02_
             </span>
             Projects
           </a>
@@ -75,7 +75,7 @@ function MenuOverlay({ navBarOpen, setNavBarOpen }) {
             }}
           >
             <span className='font-jetBrainsExtraBold dark:text-yellow-400'>
-              04_
+              03_
             </span>
             Contact
           </a>
