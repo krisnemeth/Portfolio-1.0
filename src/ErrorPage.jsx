@@ -1,4 +1,4 @@
-import Navbar from './components/Nav/Navbar';
+import NavbarError from './components/Nav/NavbarError';
 import MenuOverlay from './components/Nav/MenuOverlay';
 
 import Footer from './components/Sections/Footer';
@@ -11,7 +11,7 @@ function ErrorPage({ darkMode, setNavBarOpen, navBarOpen, handleDarkMode }) {
     <div className={`${darkMode ? 'dark' : ''}`}>
       <div className='bg-slate-200 px-10 text-zinc-950 dark:bg-zinc-900 font-jetBrainsRegular overscroll-auto transition-all duration-1000 ease-in-out'>
         <div className='container relative mx-auto'>
-          <Navbar
+          <NavbarError
             navBarOpen={navBarOpen}
             setNavBarOpen={setNavBarOpen}
             handleDarkMode={handleDarkMode}
