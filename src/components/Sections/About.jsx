@@ -31,25 +31,28 @@ function About() {
               I've enrolled to a college course to learn more about web
               development in a more structured environment.
             </p>
-            <p className='text-sm md:text-base l:hidden xl:block lg:text-lg pt-4'>
-              I've finished my studies at
-              <span className='font-jetBrainsExtraBold'>
-                {' '}
-                City of Glasgow College{' '}
-              </span>
-              in 2023 with an
-              <span className='font-jetBrainsExtraBold'> 'A'</span> grade on my{' '}
-              <span className='font-jetBrainsExtraBold'>
-                Higher National Diploma
-              </span>
-              .
-            </p>
+            <div className='lg:hidden xl:inline-block'>
+              <p className='text-sm md:text-base l:hidden xl:block lg:text-lg pt-4'>
+                I've finished my studies at
+                <span className='font-jetBrainsExtraBold'>
+                  {' '}
+                  City of Glasgow College{' '}
+                </span>
+                in 2023 with an
+                <span className='font-jetBrainsExtraBold'> 'A'</span> grade on
+                my{' '}
+                <span className='font-jetBrainsExtraBold'>
+                  Higher National Diploma
+                </span>
+                .
+              </p>
+            </div>
           </div>
 
           <div className='flex flex-col md:col-span-1 lg:col-span-2 xl:col-span-1 2xl:col-span-2 order-first md:order-2 lg:order-2 w-full h-full'>
             <img
-              className='object-cover border-2 border-zinc-800 dark:border-zinc-400 shadow-xl'
-              src='src/assets/headshot.jpeg'
+              className='grayscale hover:grayscale-0 transition duration-500 ease-out object-cover border-2 border-zinc-800 dark:border-zinc-400 shadow-xl'
+              src='public/images/Portrait.png'
               alt='headshot'
             />
           </div>
@@ -57,6 +60,22 @@ function About() {
 
         <div className='grid grid-cols-1 lg:col-span-3 gap-8'>
           <div className='flex flex-col w-full h-full text-justify text-zinc-800 dark:text-zinc-400'>
+            <div className='hidden lg:inline-block xl:hidden'>
+              <p className='text-sm md:text-base l:hidden xl:block lg:text-lg pt-4'>
+                I've finished my studies at
+                <span className='font-jetBrainsExtraBold'>
+                  {' '}
+                  City of Glasgow College{' '}
+                </span>
+                in 2023 with an
+                <span className='font-jetBrainsExtraBold'> 'A'</span> grade on
+                my{' '}
+                <span className='font-jetBrainsExtraBold'>
+                  Higher National Diploma
+                </span>
+                .
+              </p>
+            </div>
             <p className='text-sm md:text-base lg:text-lg pt-4'>
               Since finishing the course I kept my studies a priority, expanding
               on my new and existing skills to build a solid front-end stack.{' '}
