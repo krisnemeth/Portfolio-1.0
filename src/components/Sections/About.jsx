@@ -52,7 +52,7 @@ function About() {
           <div className='flex flex-col md:col-span-1 lg:col-span-2 xl:col-span-1 2xl:col-span-2 order-first md:order-2 lg:order-2 w-full h-full'>
             <img
               className='grayscale hover:grayscale-0 transition duration-500 ease-out object-cover border-2 border-zinc-800 dark:border-zinc-400 shadow-xl'
-              src='public/images/Portrait.png'
+              src='/images/Portrait.png'
               alt='headshot'
             />
           </div>
