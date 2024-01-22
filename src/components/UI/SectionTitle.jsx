@@ -3,7 +3,7 @@ function SectionTitle({ section: { no, title } }) {
   return (
     <>
       <div className='mt-0'>
-        <h2 className='text-4xl mt-2 text-zinc-800 dark:text-zinc-500 font-jetBrainsRegular'>
+        <h2 className='text-2xl md:text-4xl mt-2 text-zinc-800 dark:text-zinc-500 font-jetBrainsRegular'>
           <span className='font-jetBrainsExtraBold'>{no}_</span>
           {title}
         </h2>

@@ -4,7 +4,7 @@ import { FiExternalLink } from 'react-icons/fi';
 
 function FeaturedItemLeft({
   //eslint-disable-next-line
-  project: { title, description, tech1, tech2, tech3, tech4 },
+  project: { title, description, tech1, tech2, tech3, tech4, link1, link2 },
   //eslint-disable-next-line
   darkMode,
 }) {
@@ -23,19 +23,35 @@ function FeaturedItemLeft({
           </div>
 
           <h4 className='text-zinc-800 dark:text-zinc-500 text-3xl font-jetBrainsExtraBold m-4 flex md:mb-0 md:mx-0'>
-            {title}
+            <a
+              href={link1}
+              target='_blank'
+              rel='noopener noreferrer'
+              title='External Link'
+              className='cursor-pointer'
+            >
+              {title}
+            </a>
           </h4>
 
           <div className='p-4'>
-            <img
-              src={
-                darkMode
-                  ? '/images/Portfolio - light.png'
-                  : '/images/Portfolio - dark.png'
-              }
-              alt=''
-              className='md:hidden border-2 border-zinc-800 shadow-xl'
-            />
+            <a
+              href={link1}
+              target='_blank'
+              rel='noopener noreferrer'
+              title='External Link'
+              className='cursor-pointer'
+            >
+              <img
+                src={
+                  darkMode
+                    ? '/images/Portfolio - light.png'
+                    : '/images/Portfolio - dark.png'
+                }
+                alt=''
+                className='md:hidden border-2 border-zinc-800 shadow-xl'
+              />
+            </a>
           </div>
 
           <div className='h-full'>
@@ -54,13 +70,19 @@ function FeaturedItemLeft({
           </div>
           <div className='flex m-4 md:my-4 md:mx-0'>
             <a
-              href='https://github.com/krisnemeth/Portfolio-1.0'
+              href={link2}
               target='_blank'
               rel='noopener noreferrer'
+              title='GitHub'
             >
               <VscGithub className='text-3xl text-zinc-500 mr-4' />
             </a>
-            <a href='#' target='_blank' rel='noopener noreferrer'>
+            <a
+              href={link1}
+              target='_blank'
+              rel='noopener noreferrer'
+              title='External Link'
+            >
               <FiExternalLink className='text-3xl text-zinc-500' />
             </a>
           </div>
@@ -69,15 +91,23 @@ function FeaturedItemLeft({
 
       {/* RIGHT SIDE shadow-xl border-2 border-zinc-800 was on next line */}
       <div className='h-full w-full hidden md:inline-block order-first lg:order-2'>
-        <img
-          src={
-            darkMode
-              ? '/images/Portfolio - light.png'
-              : '/images/Portfolio - dark.png'
-          }
-          alt=''
-          className='grayscale hover:grayscale-0 transition duration-500 ease-out box-border border-2 border-zinc-800 shadow-xl'
-        />
+        <a
+          href={link1}
+          target='_blank'
+          rel='noopener noreferrer'
+          title='External Link'
+          className='cursor-pointer'
+        >
+          <img
+            src={
+              darkMode
+                ? '/images/Portfolio - light.png'
+                : '/images/Portfolio - dark.png'
+            }
+            alt=''
+            className='grayscale hover:grayscale-0 transition duration-500 ease-out box-border border-2 border-zinc-800 shadow-xl'
+          />
+        </a>
       </div>
     </>
   );

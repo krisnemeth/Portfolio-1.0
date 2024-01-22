@@ -8,7 +8,7 @@ function MenuOverlay({ navBarOpen, setNavBarOpen }) {
         transition:
           'transform 200ms cubic-bezier(0.4, 0, 0.2, 1), background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1)',
       }}
-      className={`fixed flex top-0 left-0 w-full px-10 z-30 h-screen pt-24 bg-slate-200 dark:bg-zinc-900 ${
+      className={`fixed flex top-0 left-0 w-full px-6 z-30 h-screen pt-24 bg-slate-200 dark:bg-zinc-900 ${
         navBarOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-full'
       }`}
     >

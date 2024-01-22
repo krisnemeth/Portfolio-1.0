@@ -23,6 +23,8 @@ function Projects({ darkMode }) {
             tech2: 'PHP',
             tech3: 'MySQL',
             tech4: 'Bootstrap',
+            link1: 'https://nms-kn.000webhostapp.com/index.php',
+            link2: 'https://github.com/krisnemeth/National-Museum-of-Scotland',
           }}
         />
       </FeaturedProjectGrid>
@@ -37,6 +39,8 @@ function Projects({ darkMode }) {
             tech2: 'React',
             tech3: 'ReactRouter',
             tech4: 'TailwindCSS',
+            link1: 'https://krisnemeth.dev',
+            link2: 'https://github.com/krisnemeth/Portfolio-1.0',
           }}
         />
       </FeaturedProjectGrid>

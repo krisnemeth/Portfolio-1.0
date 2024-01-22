@@ -4,16 +4,24 @@ import { FiExternalLink } from 'react-icons/fi';
 
 function FeaturedItemRight({
   //eslint-disable-next-line
-  project: { title, description, tech1, tech2, tech3, tech4 },
+  project: { title, description, tech1, tech2, tech3, tech4, link1, link2 },
 }) {
   return (
     <>
       <div className='h-full w-full hidden md:inline-block'>
-        <img
-          src='/images/NMS.png'
-          alt=''
-          className='grayscale hover:grayscale-0 transition duration-500 ease-out border-2 border-zinc-800 shadow-xl'
-        />
+        <a
+          href={link1}
+          target='_blank'
+          rel='noopener noreferrer'
+          title='External Link'
+          className='cursor-pointer'
+        >
+          <img
+            src='/images/NMS.png'
+            alt=''
+            className='grayscale hover:grayscale-0 transition duration-500 ease-out border-2 border-zinc-800 shadow-xl'
+          />
+        </a>
       </div>
 
       <div className='md:h-full mt-8 lg:mt-0'>
@@ -28,15 +36,31 @@ function FeaturedItemRight({
           </div>
 
           <h4 className='text-zinc-800 dark:text-zinc-500 text-3xl font-jetBrainsExtraBold m-4 flex lg:justify-end md:my-0 md:mx-0'>
-            {title}
+            <a
+              href={link1}
+              target='_blank'
+              rel='noopener noreferrer'
+              title='External Link'
+              className='cursor-pointer'
+            >
+              {title}
+            </a>
           </h4>
 
           <div className='p-4'>
-            <img
-              src='/images/NMS.png'
-              alt=''
-              className='md:hidden border-2 border-zinc-800 shadow-lg'
-            />
+            <a
+              href={link1}
+              target='_blank'
+              rel='noopener noreferrer'
+              title='External Link'
+              className='cursor-pointer'
+            >
+              <img
+                src='/images/NMS.png'
+                alt=''
+                className='md:hidden border-2 border-zinc-800 shadow-lg'
+              />
+            </a>
           </div>
 
           <div className='h-full mt-2'>
@@ -55,16 +79,18 @@ function FeaturedItemRight({
           </div>
           <div className='flex lg:justify-end m-4 md:my-4 md:mx-0'>
             <a
-              href='https://github.com/krisnemeth/National-Museum-of-Scotland'
+              href={link2}
               target='_blank'
               rel='noopener noreferrer'
+              title='GitHub'
             >
               <VscGithub className='text-3xl text-zinc-500 mr-4' />
             </a>
             <a
-              href='https://nms-kn.000webhostapp.com/index.php'
+              href={link1}
               target='_blank'
               rel='noopener noreferrer'
+              title='External Link'
             >
               <FiExternalLink className='text-3xl text-zinc-500' />
             </a>
