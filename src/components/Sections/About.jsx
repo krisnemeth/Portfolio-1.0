@@ -50,11 +50,18 @@ function About() {
           </div>
 
           <div className='flex flex-col md:col-span-1 lg:col-span-2 xl:col-span-1 2xl:col-span-2 order-first md:order-2 lg:order-2 w-full h-full'>
-            <img
-              className='grayscale hover:grayscale-0 transition duration-500 ease-out object-cover border-2 border-zinc-800 dark:border-zinc-400 shadow-xl'
-              src='/images/Portrait.png'
-              alt='headshot'
-            />
+            <a
+              href='https://www.linkedin.com/in/krisztian-nemeth-3a41682a5/'
+              target='_blank'
+              rel='noopener noreferrer'
+              title='LinkedIn Profile'
+            >
+              <img
+                className='grayscale hover:grayscale-0 transition duration-500 ease-out object-cover border-2 border-zinc-800 dark:border-zinc-400 shadow-xl'
+                src='/images/Portrait.png'
+                alt='headshot'
+              />
+            </a>
           </div>
         </div>
 

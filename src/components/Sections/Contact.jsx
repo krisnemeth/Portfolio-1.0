@@ -72,19 +72,19 @@ function Contact() {
 
           <div className='hidden md:inline-block order-first md:order-first lg:order-first xl:order-2'>
             <div className='flex flex-col'>
-              <p className='lg:text-center text-l p-4 md:px-0 md:pb-16 md:pt-0 text-zinc-800 dark:text-zinc-500'>
+              <p className='lg:text-center text-sm p-4 md:px-0 md:pb-16 md:pt-0 text-zinc-800 dark:text-zinc-500'>
                 Thanks for checking out my work!
               </p>
-              <h2 className='lg:text-center text-6xl md:text-7xl 2xl:text-8xl p-4 md:px-0 md:pb-16 font-jetBrainsExtraBold text-zinc-800 dark:text-zinc-400'>
-                Let&apos;s talk
+              <h2 className='lg:text-center text-2xl md:text-5xl 2xl:text-6xl p-4 md:px-0 md:pb-16 font-jetBrainsExtraBold text-zinc-800 dark:text-zinc-400'>
+                Let&apos;s talk!
               </h2>
-              <p className='text-xl text-justify font-jetBrainsRegular text-zinc-800 dark:text-zinc-500 mb-14 md:pr-0'>
+              <p className='text-md lg:text-xl text-justify font-jetBrainsRegular text-zinc-800 dark:text-zinc-500 mb-14 md:pr-0'>
                 If you liked what you&apos;ve seen, please do{' '}
                 <span className='font-jetBrainsExtraBold'>get in touch</span>. I
                 am open to web developer positions, collaboration, projects or a
                 chat.
               </p>
-              <p className='text-xl text-justify font-jetBrainsRegular text-zinc-800 dark:text-zinc-500 py-2 md:pr-0'>
+              <p className='text-md lg:text-xl text-justify font-jetBrainsRegular text-zinc-800 dark:text-zinc-500 py-2 md:pr-0'>
                 Send me a message through the form, or get in touch directly via
                 the e-mail on the bottom right.{' '}
                 <span className='font-jetBrainsExtraBold'>&rarr;</span>
