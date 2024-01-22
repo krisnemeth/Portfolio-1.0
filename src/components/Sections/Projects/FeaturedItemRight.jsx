@@ -84,7 +84,7 @@ function FeaturedItemRight({
               rel='noopener noreferrer'
               title='GitHub'
             >
-              <VscGithub className='text-3xl text-zinc-500 mr-4' />
+              <VscGithub className='text-3xl text-zinc-400 mr-4 hover:text-zinc-500 dark:hover:text-yellow-400' />
             </a>
             <a
               href={link1}
@@ -92,7 +92,7 @@ function FeaturedItemRight({
               rel='noopener noreferrer'
               title='External Link'
             >
-              <FiExternalLink className='text-3xl text-zinc-500' />
+              <FiExternalLink className='text-3xl text-zinc-400 hover:text-zinc-500 dark:hover:text-yellow-400' />
             </a>
           </div>
         </div>
