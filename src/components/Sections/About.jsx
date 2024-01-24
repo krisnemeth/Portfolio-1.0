@@ -93,9 +93,17 @@ function About() {
             </p>
 
             <p className='text-sm md:text-base lg:text-lg pt-4'>
-              My current stack is versatile, and though mainly
+              I have a flexible tech stack, primarily centered around{' '}
+              <span className='font-jetBrainsExtraBold'> JavaScript</span>.
+              However, I've recently begun to learn{' '}
+              <span className='font-jetBrainsExtraBold'> TypeScript</span> due
+              to its increasing prevalence as an industry standard.{' '}
+              {/* My current stack is versatile, and though mainly
               <span className='font-jetBrainsExtraBold'> JavaScript</span>{' '}
-              based, I have experience with
+              based, I have recently started learning
+              <span className='font-jetBrainsExtraBold'> TypeScript</span> as it
+              is more and more of an industry standard.  */}
+              I have experience with
               <span className='font-jetBrainsExtraBold'> PHP</span> and{' '}
               <span className='font-jetBrainsExtraBold'> MySQL</span> as well. I
               am familiar with front-end frameworks/libraries like{' '}

@@ -3,7 +3,6 @@ import {
   SiCss3,
   SiSass,
   SiMysql,
-  SiReactrouter,
   SiTailwindcss,
   SiBootstrap,
   SiAdobephotoshop,
@@ -11,6 +10,7 @@ import {
   SiAdobexd,
   SiFigma,
   SiJavascript,
+  SiTypescript,
   SiReact,
   SiPhp,
   SiRedux,
@@ -80,6 +80,14 @@ function Skills() {
             </div>
             <p className='text-xs md:text-sm text-center text-zinc-800 dark:text-zinc-400 mt-3'>
               JavaScript
+            </p>
+          </div>
+          <div className='class="flex items-center justify-center p-0 flex-col mb-4 mr-0 h-28 sm:h-auto'>
+            <div className='class="w-16 h-16 group flex justify-center flex-wrap transition-all duration-200 ease-in-out transform translate-y-0 group hover:-translate-y-0 translate-x-0"'>
+              <SiTypescript className='text-7xl text-zinc-800 dark:text-zinc-400' />
+            </div>
+            <p className='text-xs md:text-sm text-center text-zinc-800 dark:text-zinc-400 mt-3'>
+              TypeScript
             </p>
           </div>
           <div className='class="flex items-center justify-center p-0 flex-col mb-4 mr-0 h-28 sm:h-auto'>
