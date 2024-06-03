@@ -5,7 +5,6 @@ import {
   SiMysql,
   SiTailwindcss,
   SiBootstrap,
-  SiAdobephotoshop,
   SiAdobeillustrator,
   SiAdobexd,
   SiFigma,
@@ -15,6 +14,7 @@ import {
   SiPhp,
   SiRedux,
 } from 'react-icons/si';
+import { TbBrandNextjs } from 'react-icons/tb';
 import { FaGitAlt } from 'react-icons/fa';
 import { SlGlobe } from 'react-icons/sl';
 import { RiToolsLine } from 'react-icons/ri';
@@ -92,20 +92,22 @@ function Skills() {
           </div>
           <div className='class="flex items-center justify-center p-0 flex-col mb-4 mr-0 h-28 sm:h-auto'>
             <div className='class="w-16 h-16 group flex justify-center flex-wrap transition-all duration-200 ease-in-out transform translate-y-0 group hover:-translate-y-0 translate-x-0"'>
+              <TbBrandNextjs className='text-7xl text-zinc-800 dark:text-zinc-400' />
+            </div>
+            <p className='text-xs md:text-sm text-center text-zinc-800 dark:text-zinc-400 mt-3'>
+              Next.JS
+            </p>
+          </div>
+
+          <div className='class="flex items-center justify-center p-0 flex-col mb-4 mr-0 h-28 sm:h-auto'>
+            <div className='class="w-16 h-16 group flex justify-center flex-wrap transition-all duration-200 ease-in-out transform translate-y-0 group hover:-translate-y-0 translate-x-0"'>
               <SiReact className='text-7xl text-zinc-800 dark:text-zinc-400' />
             </div>
             <p className='text-xs md:text-sm text-center text-zinc-800 dark:text-zinc-400 mt-3'>
               React
             </p>
           </div>
-          {/* <div className='class="flex items-center justify-center p-0 flex-col mb-4 mr-0 h-28 sm:h-auto'>
-            <div className='class="w-16 h-16 group flex justify-center flex-wrap transition-all duration-200 ease-in-out transform translate-y-0 group hover:-translate-y-0 translate-x-0"'>
-              <SiReactrouter className='text-7xl text-zinc-800 dark:text-zinc-400' />
-            </div>
-            <p className='text-xs md:text-sm text-center text-zinc-800 dark:text-zinc-400 mt-3'>
-              React Router
-            </p>
-          </div> */}
+
           <div className='class="flex items-center justify-center p-0 flex-col mb-4 mr-0 h-28 sm:h-auto'>
             <div className='class="w-16 h-16 group flex justify-center flex-wrap transition-all duration-200 ease-in-out transform translate-y-0 group hover:-translate-y-0 translate-x-0"'>
               <SiRedux className='text-7xl text-zinc-800 dark:text-zinc-400' />
@@ -136,14 +138,6 @@ function Skills() {
             </div>
             <p className='text-xs md:text-sm text-center text-zinc-800 dark:text-zinc-400 mt-3'>
               MySQL
-            </p>
-          </div>
-          <div className='class="flex items-center justify-center p-0 flex-col mb-4 mr-0 h-28 sm:h-auto'>
-            <div className='class="w-16 h-16 group flex justify-center flex-wrap transition-all duration-200 ease-in-out transform translate-y-0 group hover:-translate-y-0 translate-x-0"'>
-              <SiAdobephotoshop className='text-7xl text-zinc-800 dark:text-zinc-400' />
-            </div>
-            <p className='text-xs md:text-sm text-center text-zinc-800 dark:text-zinc-400 mt-3'>
-              Photoshop
             </p>
           </div>
           <div className='class="flex items-center justify-center p-0 flex-col mb-4 mr-0 h-28 sm:h-auto'>

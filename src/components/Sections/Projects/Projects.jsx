@@ -2,6 +2,7 @@
 // import { FiExternalLink } from 'react-icons/fi';
 
 import FeaturedItemLeft from './FeaturedItemLeft';
+import FeaturedItemLeftNew from './FeaturedItemLeftNew';
 import FeaturedItemRight from './FeaturedItemRight';
 import FeaturedProjectGrid from './FeaturedProjectGrid';
 import GridItem from './GridItem';
@@ -13,6 +14,22 @@ function Projects({ darkMode }) {
   return (
     <Section id='projects'>
       <SectionTitle section={{ no: '02', title: `Projects` }} />
+
+      <FeaturedProjectGrid>
+        <FeaturedItemLeftNew
+          darkMode={darkMode}
+          project={{
+            title: 'Elysium - In Progress',
+            description: `A player's tool for a popular role-playing game, pontential SaaS. Users can register, create and manage their character sheets and loresheets. Work in progress built with TypeScript, Next.JS 14, TailwindCSS, and PostgreSQL.`,
+            tech1: 'TypeScript',
+            tech2: 'Next.JS',
+            tech3: 'PostgreSQL',
+            tech4: 'TailwindCSS',
+            link1: 'https://elysium-project-ten.vercel.app/',
+            link2: 'https://github.com/krisnemeth/Elysium',
+          }}
+        />
+      </FeaturedProjectGrid>
 
       <FeaturedProjectGrid>
         <FeaturedItemRight
@@ -33,7 +50,7 @@ function Projects({ darkMode }) {
         <FeaturedItemLeft
           darkMode={darkMode}
           project={{
-            title: 'Portfolio',
+            title: 'Portfolio 1.0',
             description: `My first real-life React project. I've built this portfolio to showcase my skills, projects and a bit of my personality. I've used React Router for navigation, JavaScript for dark mode and other functonality, and TailwindCSS for styling.`,
             tech1: 'JavaScript',
             tech2: 'React',

@@ -16,7 +16,7 @@ function Footer() {
           Copyright © {year} - Designed and developed by
           <span className='font-jetBrainsExtraBold text-xinc-800 dark:text-zinc-500'>
             {' '}
-            Krisztian Nemeth
+            <a href='mailto:krsnmth@gmail.com'>Krisztian Nemeth</a>
           </span>
         </p>
       </div>

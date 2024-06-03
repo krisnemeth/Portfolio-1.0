@@ -3,6 +3,7 @@ import { TfiFolder } from 'react-icons/tfi';
 
 import { VscGithub } from 'react-icons/vsc';
 import { FiExternalLink } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 function GridItem({
   //eslint-disable-next-line
@@ -21,22 +22,12 @@ function GridItem({
             <TfiFolder className='text-4xl m-4 text-zinc-800 dark:text-yellow-400' />
           </div>
           <div className='flex m-4'>
-            <a
-              href={link1}
-              target='_blank'
-              rel='noopener noreferrer'
-              title='GitHub'
-            >
+            <Link to={link1} rel='noopener noreferrer' target='_blank'>
               <VscGithub className='text-3xl text-zinc-400 dark:text-zinc-500 mr-4 hover:text-zinc-500 dark:hover:text-yellow-400' />
-            </a>
-            <a
-              href={link2}
-              target='_blank'
-              rel='noopener noreferrer'
-              title='External Link'
-            >
+            </Link>
+            <Link to={link2} rel='noopener noreferrer' target='_blank'>
               <FiExternalLink className='text-3xl text-zinc-400 dark:text-zinc-500 hover:text-zinc-500 dark:hover:text-yellow-400' />
-            </a>
+            </Link>
           </div>
         </div>
 
