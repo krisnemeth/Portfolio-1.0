@@ -95,9 +95,9 @@ function About() {
             <p className='text-sm md:text-base lg:text-lg pt-4'>
               I have a flexible tech stack, primarily centered around{' '}
               <span className='font-jetBrainsExtraBold'> JavaScript</span>.
-              However, I've recently begun to learn{' '}
-              <span className='font-jetBrainsExtraBold'> TypeScript</span> due
-              to its increasing prevalence as an industry standard.{' '}
+              However, I've been using{' '}
+              <span className='font-jetBrainsExtraBold'> TypeScript</span>{' '}
+              recently due to its increasing prevalence as an industry standard.{' '}
               {/* My current stack is versatile, and though mainly
               <span className='font-jetBrainsExtraBold'> JavaScript</span>{' '}
               based, I have recently started learning
@@ -107,7 +107,8 @@ function About() {
               <span className='font-jetBrainsExtraBold'> PHP</span> and{' '}
               <span className='font-jetBrainsExtraBold'> MySQL</span> as well. I
               am familiar with front-end frameworks/libraries like{' '}
-              <span className='font-jetBrainsExtraBold'> React</span> and
+              <span className='font-jetBrainsExtraBold'> React</span>,{' '}
+              <span className='font-jetBrainsExtraBold'> Next.JS</span> and
               <span className='font-jetBrainsExtraBold'> AngularJS</span>.
               Though I have experience with
               <span className='font-jetBrainsExtraBold'> HTML</span>,
@@ -121,7 +122,8 @@ function About() {
             <p className='text-sm md:text-base lg:text-lg pt-4'>
               In my free time, I focus on learning new technologies through
               building projects. I also love spending time with my lovely
-              girlfriend, playing video games, or playing drums, recently bass.
+              girlfriend, playing video games, or writing music as a
+              drummer/bass player with my band.
             </p>
           </div>
         </div>
