@@ -3,7 +3,8 @@
 
 import FeaturedItemLeft from './FeaturedItemLeft';
 import FeaturedItemLeftNew from './FeaturedItemLeftNew';
-import FeaturedItemRight from './FeaturedItemRight';
+// import FeaturedItemRight from './FeaturedItemRight';
+import FeaturedItemRightNew from './FeaturedItemRightNew';
 import FeaturedProjectGrid from './FeaturedProjectGrid';
 import GridItem from './GridItem';
 import SectionTitle from '../../UI/SectionTitle';
@@ -30,18 +31,17 @@ function Projects({ darkMode }) {
           }}
         />
       </FeaturedProjectGrid>
-
       <FeaturedProjectGrid>
-        <FeaturedItemRight
+        <FeaturedItemRightNew
           project={{
-            title: 'National Museum of Scotland',
-            description: `My college graded unit project built on a MySQL database offering CRUD functionality. Users can register, their account is stored with the password hashed, and are able to book events that are being offered by the museum. Bonus feature is an image upload to set their own profile picture.`,
-            tech1: 'JavaScript',
-            tech2: 'PHP',
-            tech3: 'MySQL',
-            tech4: 'Bootstrap',
-            link1: 'https://nms-kn.000webhostapp.com/index.php',
-            link2: 'https://github.com/krisnemeth/National-Museum-of-Scotland',
+            title: 'WEARECAIRO - In Progress',
+            description: `A band website with minimalistic e-commerce functionality. Users can register, login, and purchase merchandise as well as keep on top of new releases, events, and additional information on the band. Built with Next.JS, TypeScript, TailwindCSS, and PostgreSQL`,
+            tech1: 'TypeScript',
+            tech2: 'Next.JS',
+            tech3: 'PostgreSQL',
+            tech4: 'TailwindCSS',
+            link1: 'https://wearecairo.vercel.app/',
+            link2: '',
           }}
         />
       </FeaturedProjectGrid>
@@ -61,6 +61,21 @@ function Projects({ darkMode }) {
           }}
         />
       </FeaturedProjectGrid>
+      {/* 
+      <FeaturedProjectGrid>
+        <FeaturedItemRight
+          project={{
+            title: 'National Museum of Scotland',
+            description: ``,
+            tech1: 'JavaScript',
+            tech2: 'PHP',
+            tech3: 'MySQL',
+            tech4: 'Bootstrap',
+            link1: 'https://nms-kn.000webhostapp.com/index.php',
+            link2: 'https://github.com/krisnemeth/National-Museum-of-Scotland',
+          }}
+        />
+      </FeaturedProjectGrid> */}
 
       <div className='flex flex-col w-full my-10'>
         <h2 className='text-4xl text-zinc-800 dark:text-zinc-400 text-center font-jetBrainsSemibold my-10'>
@@ -69,7 +84,19 @@ function Projects({ darkMode }) {
         {/* <hr className='bg-yellow-400 w-full h-1 mt-2 border-0' /> */}
       </div>
 
-      <div className='grid grid-cols-1 md:grid-cols-1 xl:grid-cols-2 gap-8 mt-4'>
+      <div className='grid grid-cols-1 md:grid-cols-1 xl:grid-cols-2 gap-4 mt-4'>
+        <GridItem
+          project={{
+            title: 'National Museum of Scotland',
+            description: `My college graded unit project built on a MySQL database offering CRUD and Image upload functionality. Users can register and book events offered by the museum. `,
+            tech1: 'JavaScript',
+            tech2: 'PHP',
+            tech3: 'MySQL',
+            tech4: 'Bootstrap',
+            link1: 'https://github.com/krisnemeth/National-Museum-of-Scotland',
+            link2: 'https://nms-kn.000webhostapp.com/index.php',
+          }}
+        />
         <GridItem
           project={{
             title: 'eRevive',

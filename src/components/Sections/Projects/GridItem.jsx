@@ -31,11 +31,11 @@ function GridItem({
           </div>
         </div>
 
-        <h4 className='text-zinc-800 dark:text-zinc-500 text-3xl font-jetBrainsExtraBold m-4'>
+        <h4 className='text-zinc-800 dark:text-zinc-500 text-xl font-jetBrainsExtraBold m-4'>
           {title}
         </h4>
         <div className='h-40'>
-          <p className='text-l text-zinc-800 dark:text-zinc-400 m-4'>
+          <p className='text-sm text-zinc-800 dark:text-zinc-400 m-4'>
             {description}
           </p>
         </div>
