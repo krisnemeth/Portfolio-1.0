@@ -45,8 +45,8 @@ function FeaturedItemLeftNew({
               <img
                 src={
                   darkMode
-                    ? '/images/ProductShot.webp'
-                    : '/images/ProductShot.webp'
+                    ? '/images/iPadDarkShot.png'
+                    : '/images/iPadLightShot.png'
                 }
                 alt=''
                 className='md:hidden border-2 border-zinc-800 shadow-xl'
@@ -100,10 +100,12 @@ function FeaturedItemLeftNew({
         >
           <img
             src={
-              darkMode ? '/images/ProductShot.webp' : '/images/ProductShot.webp'
+              darkMode
+                ? '/images/iPadDarkShot.png'
+                : '/images/iPadLightShot.png'
             }
             alt=''
-            className='grayscale hover:grayscale-0 transition duration-500 ease-out box-border border-2 border-zinc-800 shadow-xl'
+            className='border-2 border-zinc-800 shadow-xl'
           />
         </a>
       </div>

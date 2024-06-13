@@ -105,7 +105,7 @@ function FeaturedItemLeft({
                 : '/images/Portfolio - dark.png'
             }
             alt=''
-            className='grayscale hover:grayscale-0 transition duration-500 ease-out box-border border-2 border-zinc-800 shadow-xl'
+            className=' border-2 border-zinc-800 shadow-xl'
           />
         </a>
       </div>

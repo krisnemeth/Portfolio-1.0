@@ -19,7 +19,7 @@ function FeaturedItemRightNew({
           <img
             src='/images/CairoShot.webp'
             alt=''
-            className='grayscale hover:grayscale-0 transition duration-500 ease-out border-2 border-zinc-800 shadow-xl'
+            className='border-2 border-zinc-800 shadow-xl'
           />
         </a>
       </div>
