@@ -83,7 +83,7 @@ function MenuOverlay({ navBarOpen, setNavBarOpen }) {
         <li className='nav-li'>
           <Button>
             <a
-              href='public/CV/Krisztian-Nemeth-CV.pdf'
+              href='public/CV/Krisztian-Nemeth-CV-ENG.pdf'
               download
               className='nav-link'
               onClick={() => {
